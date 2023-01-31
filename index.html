@@ -10,21 +10,24 @@
 </head>
 
 <body>
+    <!--Header of portfolio.-->
     <header>
         <h1>Lizbeth Castro</h1>
-        <nav>
+        <!--Nav of portfolio.-->
+        <nav class="nav">
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <!--About Me section.-->
+        <section class="about-me">
             <h2>About Me</h2>
-            <img src="./assets/images/Picture.jpg" alt="Picture of Myself">
+            <img id="profile-image" src="./assets/images/Picture.jpg" alt="Picture of Myself">
             <p> I'm currently a student at the University of Utah Coding Bootcamp and am very excited to learn
                 all about the basics of coding. In the future, I hope to continue my education and use my in 
                 the medical field. I currently work as a professional at an elementary helping mild/moderate SPED
@@ -32,11 +35,35 @@
             </p>
         </section>
         
-        <section>
+        <!--My projects section.-->
+        <section class="projects">
             <h2>Projects</h2>
+                <div class="prework-project">
+                    <a href="https://lizcas01.github.io/prework-study-guide/">
+                        <h3>Prework Study Guide</h3>
+                        <img class="pictures" src="./assets/images/Prework page.png" alt="Snapshot of Prework Study Guide">
+                    </a>
+                </div>
+                <div class="refactor-project">
+                    <a href="https://lizcas01.github.io/code-refactor/">
+                        <h3>Code Refactor</h3>
+                        <img class="pictures" src="./assets/images/Demo page.png" alt="Snapshot of Code Refactor">
+                    </a>
+                </div>
+                <div class="group-project1">
+                    <a href></a>
+                        <h3>Hungry Beats</h3>
+                        <img class="pictures" src="./assets/images/placeholder.jpg" alt="Placeholder Image">
+                </div>
+                <div class="coming-soon2">
+                    <h3>Coming Soon</h3>
+                    <img class="pictures" src="./assets/images/2placeholder.jpg" alt="Placeholder Image">
+                </div>
+            
         </section>
 
-        <section>
+        <!--Contact info section.-->
+        <section class="contact">
             <h2>Contact Me</h2>
                 <ul>
                     <li><a href="mailto:lizbethcastro010@gmail.com">Gmail</a></li>
@@ -46,6 +73,7 @@
         </section>
     </main>
 
+    <!--Footer section.-->
     <footer>
         <h4>Made with 💜 by Lizbeth</h4>
         <p>
@@ -53,3 +81,5 @@
         </p>
     </footer>
 </body>
+
+</html>
