@@ -1,0 +1,155 @@
+:root {
+    --background-color: rgba(0, 0, 0, 0.879); 
+    --border-style: solid;
+    --height: 400px; 
+    --width: 500px; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%; 
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background-color: var(--background-color);
+    color: white; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1%;
+    text-align: center; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    min-width: 400px;
+}
+
+nav a {
+    color: white; 
+    font-size: 20px;
+    position: relative;
+    right: 30px;
+    text-decoration: none;
+    top: 2px; 
+}
+
+.about-me {
+    display: flexbox; 
+    margin-bottom: 12%; 
+    
+}
+
+#profile-image {
+    height: auto; 
+    margin-left: 15%;
+    border-radius: 5%;
+    width: 300px;
+}
+
+.about-me p {
+    font-size: 20px; 
+    margin-top: -250px;
+    margin-left: 38%; 
+    padding: 10px; 
+    position: absolute;
+}
+
+main {
+    color: black; 
+}
+
+.contact-me ul {
+    color: black; 
+    display: flex;
+    justify-content: space-between;
+    left: 50px;; 
+    list-style-type: none; 
+}
+
+footer {
+    align-items: center;
+    background-color: var(--background-color);
+    color: white; 
+    text-align: center;
+    padding: 1%;
+}
+
+.projects {
+    background-color: var(--background-color);
+    color: white; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.works {
+    border-width: 2px;
+    margin: 90px;
+    margin-bottom: 12%;
+    position: relative; 
+}
+
+.hungry-beats {
+    height: 400px; 
+    width: 1000px;  
+    margin-right: 80%;
+    border-style: solid;
+    font-size: 20px; 
+    margin-left: 38%; 
+}
+
+#hungry-beats {
+    height: 350px; 
+    width: 1000px; 
+}
+
+.prework {
+    border-style: var(--border-style); 
+    margin-left: 45%;
+    height: var(--height); 
+    width: var(--width);
+}
+
+.refactor {
+    border-style: var(--border-style);
+    height: var(--height); 
+    width: var(--width); 
+}
+
+.coming-soon {
+    border-style: var(--border-style);
+    margin-left: 45%;
+    height: var(--height);
+    width: var(--width);
+}
+
+.coming-soon2 {
+    border-style: var(--border-style);
+    height: var(--height); 
+    width: var(--width);
+}
+
+.pictures {
+    height: 340px; 
+    width: 500px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+}
+
+h3 {
+    color: white; 
+    text-decoration: none; 
+}
