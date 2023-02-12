@@ -1,8 +1,13 @@
 :root {
     --background-color: rgba(0, 0, 0, 0.879); 
+    --border-radius: 5%;
     --border-style: solid;
     --height: 400px; 
     --width: 500px; 
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -38,20 +43,23 @@ nav a {
     top: 2px; 
 }
 
-.about-me {
+nav a:hover {
+    color: gray
+}
+
+#about {
     display: flexbox; 
-    margin-bottom: 12%; 
-    
+    margin-bottom: 10%;   
 }
 
 #profile-image {
+    border-radius: 5%;
     height: auto; 
     margin-left: 15%;
-    border-radius: 5%;
     width: 300px;
 }
 
-.about-me p {
+#about p {
     font-size: 20px; 
     margin-top: -250px;
     margin-left: 38%; 
@@ -63,12 +71,27 @@ main {
     color: black; 
 }
 
-.contact-me ul {
+#contact {
+    margin-bottom: 60px;
+}
+
+#contact ul {
     color: black; 
     display: flex;
     justify-content: space-between;
-    left: 50px;; 
+    margin-left: 60px; 
+    margin-right: 60px;
     list-style-type: none; 
+}
+
+.contact-text {
+    color:rgba(0, 0, 0, 0.879);
+    font-size: 20px;
+    margin-bottom: 30%; 
+}
+
+.contact-text:hover {
+    color: gray
 }
 
 footer {
@@ -79,63 +102,101 @@ footer {
     padding: 1%;
 }
 
-.projects {
+#projects {
     background-color: var(--background-color);
     color: white; 
     display: flex; 
     flex-wrap: wrap;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    
 }
 
-.works {
+.resume {
     border-width: 2px;
     margin: 90px;
     margin-bottom: 12%;
     position: relative; 
 }
 
-.hungry-beats {
-    height: 400px; 
-    width: 1000px;  
-    margin-right: 80%;
+
+.hungry-beats { 
     border-style: solid;
-    font-size: 20px; 
-    margin-left: 38%; 
+    border-radius: 3%;
+    border-width: 6px; 
+    font-size: 20px;
+    margin-right: 80%;
+    margin-top: 5%;
+    height: 410px; 
+    width: 1040px; 
+}
+
+.hungry-beats:hover {
+    opacity: 65%;
 }
 
 #hungry-beats {
-    height: 350px; 
-    width: 1000px; 
+    border-radius: 3%;
+    height: 335px; 
+    width: 1040px; 
 }
 
 .prework {
     border-style: var(--border-style); 
-    margin-left: 45%;
+    border-radius: var(--border-radius);
+    border-width: 6px;
+    margin-left: 42%;
+    margin-top: -50%;
     height: var(--height); 
     width: var(--width);
+}
+
+.prework:hover {
+    opacity: 65%;
 }
 
 .refactor {
     border-style: var(--border-style);
+    border-radius: var(--border-radius);
+    border-width: 6px;
+    margin-top: -50%;
     height: var(--height); 
     width: var(--width); 
 }
 
+.refactor:hover {
+    opacity: 65%;
+}
+
 .coming-soon {
     border-style: var(--border-style);
-    margin-left: 45%;
+    border-radius: var(--border-radius);
+    border-width: 6px;
+    margin-left: 42%;
+    margin-top: -50%;
     height: var(--height);
     width: var(--width);
 }
 
+.coming-soon:hover {
+    opacity: 65%;
+}
+
 .coming-soon2 {
     border-style: var(--border-style);
+    border-radius: var(--border-radius);
+    border-width: 6px;
+    margin-top: -50%;
     height: var(--height); 
     width: var(--width);
 }
 
+.coming-soon2:hover {
+    opacity: 65%;
+}
+
 .pictures {
-    height: 340px; 
+    border-radius: var(--border-radius);
+    height: 342px; 
     width: 500px;
 }
 
@@ -144,12 +205,226 @@ h1 {
 }
 
 h2 {
+    font-size: 26px; 
     margin-left: 4%;
     margin-top: 4%;
-    text-decoration: underline;
 }
 
 h3 {
     color: white; 
-    text-decoration: none; 
+    font-weight: 500;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    #profile-image {
+         width: 250px; 
+    }
+ 
+    #about p {
+         font-size: 18px;
+         padding: 4%;
+    }
+    
+     .hungry-beats {
+         width: 700px;
+         margin-left: 10%;
+    }
+ 
+    #hungry-beats {
+         width: 700px;
+         margin-right: 10%;
+    }
+    
+    .prework {
+         width: 300px;
+         margin-left: 24%;
+    }
+ 
+    .refactor {
+         width: 300px;
+         margin-left: -10%;   
+    }
+ 
+    .coming-soon {
+         width: 300px; 
+         margin-left: 24%;
+    }
+ 
+    .coming-soon2 {
+         width: 300px;
+         margin-left: -10%;
+    }
+    
+    .pictures {
+         width: 300px;
+    }
+ 
+   
+     
+ }   
+
+@media screen and (max-width: 992px) {
+   #profile-image {
+        width: 250px; 
+   }
+
+   #about p {
+        font-size: 18px;
+        padding: 4%;
+   }
+   
+    .hungry-beats {
+        width: 700px;
+        margin-left: 10%;
+   }
+
+   #hungry-beats {
+        width: 700px;
+        margin-right: 10%;
+   }
+   
+   .prework {
+        width: 300px;
+        margin-left: 24%;
+   }
+
+   .refactor {
+        width: 300px;
+        margin-left: -10%;   
+   }
+
+   .coming-soon {
+        width: 300px; 
+        margin-left: 24%;
+   }
+
+   .coming-soon2 {
+        width: 300px;
+        margin-left: -10%;
+   }
+   
+   .pictures {
+        width: 300px;
+   }
+
+  
+    
+}   
+
+@media screen and (max-width:768px) {
+    #profile-image {
+        width: 200px; 
+   }
+
+   #about p {
+        font-size: 15px;
+        padding: 8%;
+   }
+   
+    .hungry-beats {
+        width: 500px;
+        margin-left: 10%;
+   }
+
+   #hungry-beats {
+        width: 500px;
+        margin-right: 10%;
+   }
+   
+   .prework {
+        width: 330px;
+        margin-left: 40%;
+   }
+
+   .refactor {
+        width: 330px;
+        margin-left: 40%;   
+   }
+
+   .coming-soon {
+        width: 330px; 
+        margin-left: 40%;
+   }
+
+   .coming-soon2 {
+        width: 330px;
+        margin-left: 40%;
+   }
+   
+   .pictures {
+        width: 330px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1%;
+        text-align: center; 
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        min-width: 50px;
+    }
+    
+    nav a {
+        color: white; 
+        font-size: 15px;
+        position: relative;
+        right: 40px;
+        text-decoration: none;
+        top: 2px; 
+    }
+    
+    #profile-image {
+        width: 100px; 
+   }
+
+   #about p {
+        font-size: 8px;
+        margin-top: -45%;
+        margin-left: 40%;
+   }
+   
+    .hungry-beats {
+        width: 150px;
+        margin-left: 10%;
+   }
+
+   #hungry-beats {
+        width: 150px;
+        margin-right: 10%;
+   }
+   
+   .prework {
+        width: 100px;
+        margin-left: 40%;
+   }
+
+   .refactor {
+        width: 100px;
+        margin-left: 40%;   
+   }
+
+   .coming-soon {
+        width: 100px; 
+        margin-left: 40%;
+   }
+
+   .coming-soon2 {
+        width: 100px;
+        margin-left: 40%;
+   }
+   
+   .pictures {
+        width: 100px;
+   }
 }
