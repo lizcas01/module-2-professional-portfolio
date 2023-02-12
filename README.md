@@ -4,7 +4,7 @@ For this project, we made a professional portfolio for potential. This was the f
 ## Installation 
 N/A
 ## Usage 
-![Demopage] (assets/images/Portfolio-Demo.jpg)
+![Demopage]assets/images/Portfolio-Demo.jpg)
 To use this portfolio, click on the small text on the navigation bar to take you to the desired page section. You can also click on the pictures under "My Projects" to check out the work I've done so far. 
 ## Credits
 N/A
