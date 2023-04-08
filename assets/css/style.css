@@ -167,7 +167,7 @@ footer {
     opacity: 65%;
 }
 
-.coming-soon {
+.generator {
     border-style: var(--border-style);
     border-radius: var(--border-radius);
     border-width: 6px;
@@ -177,11 +177,11 @@ footer {
     width: var(--width);
 }
 
-.coming-soon:hover {
+.generator:hover {
     opacity: 65%;
 }
 
-.coming-soon2 {
+.plotpoint{
     border-style: var(--border-style);
     border-radius: var(--border-radius);
     border-width: 6px;
@@ -190,7 +190,7 @@ footer {
     width: var(--width);
 }
 
-.coming-soon2:hover {
+.plotpoint:hover {
     opacity: 65%;
 }
 
@@ -248,12 +248,12 @@ h3 {
          margin-left: -10%;   
     }
  
-    .coming-soon {
+    .generator {
          width: 300px; 
          margin-left: 24%;
     }
  
-    .coming-soon2 {
+    .plotpoint {
          width: 300px;
          margin-left: -10%;
     }
@@ -293,12 +293,12 @@ h3 {
         margin-left: -10%;   
     }
 
-   .coming-soon {
+   .generator {
         width: 300px; 
         margin-left: 24%;
     }
 
-   .coming-soon2 {
+   .plotpoint {
         width: 300px;
         margin-left: -10%;
     }
@@ -341,12 +341,12 @@ h3 {
         margin-left: 40%;   
     }
 
-   .coming-soon {
+   .generator {
         width: 330px; 
         margin-left: 40%;
     }
 
-   .coming-soon2 {
+   .plotpoint {
         width: 330px;
         margin-left: 40%;
     }
@@ -412,12 +412,12 @@ h3 {
         margin-left: 40%;   
     }
 
-   .coming-soon {
+   .generator {
         width: 100px; 
         margin-left: 40%;
     }
 
-   .coming-soon2 {
+   .plotpoint {
         width: 100px;
         margin-left: 40%;
     }
