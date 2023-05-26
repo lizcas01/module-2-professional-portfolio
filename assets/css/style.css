@@ -140,7 +140,7 @@ footer {
     width: 1040px; 
 }
 
-.prework {
+.hungry-beats {
     border-style: var(--border-style); 
     border-radius: var(--border-radius);
     border-width: 6px;
@@ -150,7 +150,7 @@ footer {
     width: var(--width);
 }
 
-.prework:hover {
+.hungry-beats:hover {
     opacity: 65%;
 }
 
@@ -238,7 +238,7 @@ h3 {
          margin-right: 10%;
     }
     
-    .prework {
+    .hungry-beats {
          width: 300px;
          margin-left: 24%;
     }
@@ -283,7 +283,7 @@ h3 {
         margin-right: 10%;
     }
    
-   .prework {
+   .hungry-beats {
         width: 300px;
         margin-left: 24%;
     }
@@ -331,7 +331,7 @@ h3 {
         margin-right: 10%;
     }    
    
-   .prework {
+   .hungry-beats {
         width: 330px;
         margin-left: 40%;
     }
@@ -402,7 +402,7 @@ h3 {
         margin-right: 10%;
     }
    
-   .prework {
+   .hungry-beats {
         width: 100px;
         margin-left: 40%;
     }
